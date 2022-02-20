@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: staging
+      #For bigquery:
+      database: de-zoomcamp-339318
+      schema: yellow_taxi
+
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: yellow_tripdata
